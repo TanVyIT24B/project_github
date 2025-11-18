@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+    <title>Landing page 05-Tang Tan Vy</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- header  -->
+        <div class="banner">
+            <img src="./img/bg.png" alt="Background" loading="lazy" class="bg">
+            <div class="overlay">
+                <div class="logo">LUGAR</div>
+                <div class="menu">
+                    <a href="#" onclick="alert('Chức năng đang phát triển')">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#projects">PROJECT</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <div class="boxchung p-2">
+            <div class="fw-bold fs-t p-2 txt-sz ms-5">
+                <span>A home is<br>built with love<br> and dreams</span>
+            </div>
+            <div class="p-2 txt-blow ms-5">
+                <span>Real estate farm that makes your dreams true</span>
+            </div>
+            <div class="row p-2">
+                <div class="col-3 ms-5">
+                    <button type="button" class="btn btn-dark btn-custom btn-cta">Our projects</button>
+                </div>
+                <div class="col-3 ms-5">
+                    <button type="button" class="btn btn-outline-dark btn-custom btn-cta">Contact us</button>
+                </div>
+                <img class="d-flex img-ic" src="./img/Arrow_01.png" alt="arrow" loading="lazy">
+                <img class="d-flex img-ic1" src="./img/Highlight_05.png" alt="hl" loading="lazy">
+                <img class="d-flex img-ic2" src="./img/Highlight_05 (1).png" alt="hl" loading="lazy">
+            </div>
+        </div>
+        <br><br>
+        <div class="row d-flex p-3 js-animate">
+            <div class="col-6">
+                <img class="img-body" src="./img/left bg.png" alt="leftbg" loading="lazy">
+            </div>
+            <div class="col-6 fw-bold txt-award">
+                <span>Award winning real<br> estate company in<br> Dubai</span><br><br>
+                <span class="txt-body1">Semper arcu mauris aliquam lacus. Massa erat vitae ultrices<br>
+                    pharetra scelerisque. Ipsum, turpis facilisis tempor pulvinar in <br>
+                    lobortis ornare magna.</span>
+                <div class="row">
+                    <div class="col-4">
+                        <span class="txt-body2">PREVIOUS PROJECTS</span><br>
+                        <span>34+</span>
+                    </div>
+                    <div class="col-4">
+                        <span class="txt-body2">YEARS EXPERIENCE</span><br>
+                        <span>20y</span>
+                    </div>
+                    <div class="col-4">
+                        <span class="txt-body2">ONGOING PROJECTS</span><br>
+                        <span>12</span>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+    
+        <!-- ONGOING PROJECT -->
+        <section class="mt-5 js-animate" id="projects">
+            <div class="txt-custom">
+                <h2 class="fw-bold txt-ongoing">Ongoing projects</h2>
+                <p class="txt-body1">Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+            </div>
+    
+    
+            <!-- Carousel -->
+            <div id="projectsCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner" id="projectContainer">
+                    <!-- Dữ liệu từ MockAPI sẽ render ở đây -->
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section><br>
+    
+        <!-- text few smiles and coment  -->
+        <section class="mt-5 text-center js-animate">
+            <h1>Few smiles and coment</h1>
+            <span class="txt-body1">Turpis facilisis tempor pulvinar in lobortis ornare magna.</span>
+        </section><br>
+
+        <!-- the girl & text  -->
+        <section class="mt-5 js-animate position-relative">
+            <div class="row row-w">
+                <div class="col-6">
+                    <img class="img-size" src="./img/smileofgirl.jpg" alt="thegirl" loading="lazy">
+                </div>
+                <div class="col-6">
+                    <img class="mt-5 mb-2" src="./img/gg_quote.png" alt="shape" loading="lazy">
+                    <h4 class="dreamhouse">Dream house isn't dream anymore</h4><br>
+                    <span class="txt-semper">Semper arcu mauris aliquam lacus. Massa erat<br>vitae ultrices pharetra
+                        scelerisque. Ipsum, turpis<br> facilisis tempor pulvinar.</span><br><br>
+                    <span class="fw-bold">Brooklyn Simmons</span><br>
+                    <span>Artist</span>
+                </div>
+    
+                <div class="custom-arrow">
+                    <img src="./img/ic_baseline-arrow-back.png" alt="arrow-left">
+                    <img src="./img/Vector.png" alt="arrow-right">
+                </div>
+                
+            </div><br>
+        </section>
+    
+        <section class="mt-5 js-animate">
+            <div class="row row-e">
+                <div class="col-6">
+                    <img class="img-home" src="./img/home.jpg" loading="lazy" alt="house" loading="lazy">
+                </div>
+                <div class="col-6 g-3" id="contact">
+                    <form action="" method="POST" class="form" id="register-form">
+                        <h1>Contact us</h1>
+                        <span style="color:#BDBDBD;">Turpis facilisis tempor pulvinar in lobortis ornare magna.</span>
+                        <div class="row r-below">
+                            <div class="col-4 form-group">
+                                <input id="firstName" type="text" name="firstName" rules="required" placeholder="First name"
+                                    class="form-control">
+                                <span class="form-message"></span>
+    
+                            </div>
+                            <div class="col-4 form-group">
+                                <input id="lastName" type="text" name="lastName" rules="required" placeholder="Last name"
+                                    style="margin-left:15px;" class="form-control">
+                                <span class="form-message"></span>
+    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 form-group">
+                                <input id="email" type="text" name="email" rules="required|email"
+                                    placeholder="Email address" style="margin-top:15px;" class="form-control">
+                                <span class="form-message"></span>
+    
+                            </div>
+                            <div class="col-4 form-group">
+                                <input id="phone" type="number" name="phone" rules="required" placeholder="Phone number"
+                                    style="margin-left:15px;margin-top:15px;" class="form-control">
+                                <span class="form-message"></span>
+    
+                            </div>
+                        </div>
+                        <div class="col-6 form-group">
+                            <textarea id="text" name="textarea" rules="required" placeholder="Description"
+                                class="custom-input form-control"></textarea>
+                            <span class="form-message"></span>
+    
+                        </div>
+                        <div class="margin-custom">
+                            <button type="button" class="btn btn-secondary form-submit btn-cta"
+                                style="background-color: #1E3240;">Get a quote</button>
+                            <span class="text-note">We don't sell your email and spam</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer  py-5" id="about">
+            <div class="container">
+                <div class="row r-leftf">
+                    <div class="col-3 text-white">LUGAR<br>
+                        <img src="./img/ic_round-location-on.png" alt="location">
+                        <span class="custom-footer"> 2118 Thornridge Cir. Dubai, UAE 35624</span><br>
+                        <img src="./img/ic_baseline-phone.png" alt="phone">
+                        <span class="custom-footer"> +33 415 65356 - 9</span><br>
+                        <img src="./img/ic_baseline-email.png" alt="email">
+                        <span class="custom-footer"> contact@lugar.com</span>
+                    </div>
+                    <div class="col-3 text-white">QUICK LINKS<br>
+                        <span class="custom-footer">Home</span><br>
+                        <span class="custom-footer">About</span><br>
+                        <span class="custom-footer">Project</span><br>
+                        <span class="custom-footer">Contact</span><br>
+                    </div>
+                    <div class="col-3 text-white">LEGAL LINKS<br>
+                        <span class="custom-footer">Term</span><br>
+                        <span class="custom-footer">Conditions</span><br>
+                        <span class="custom-footer">Policy</span><br>
+                        <span class="custom-footer">Home</span><br>
+                    </div>
+                    <div class="col-3 text-white">SOCIAL MEDIA<br>
+                        <span class="custom-footer">Facebook</span><br>
+                        <span class="custom-footer">Twitter</span><br>
+                        <span class="custom-footer">Youtube</span><br>
+                        <span class="custom-footer">Linkedln</span><br>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; <span></span> Lugar Inc</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./validator.js"></script>
+
+    <script>
+        let form = new Validator('#register-form')
+
+        form.onSubmit = function (formData) {
+            console.log(formData)
+        }
+
+        document.querySelector('.btn.btn-dark.btn-custom.btn-cta')
+            .addEventListener('click', function () {
+                document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+            });
+
+        document.querySelector('.btn.btn-outline-dark.btn-custom.btn-cta')
+            .addEventListener('click', function () {
+                document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            });
+
+        //about
+        document.querySelector('.about')
+            .addEventListener('click', function() {
+                document.getElementById('footer').scrollIntoView({ behavior: 'smooth'})
+            })
+        // loadProjects()
+
+    </script>
+    <script src="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
